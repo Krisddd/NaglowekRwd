@@ -1,0 +1,68 @@
+
+
+body {
+    font-family: 'Verdana' , sans-serif;
+    margin: 0px;
+}
+
+
+#main-header .header-content h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: white;    
+}
+
+#main-header .header-content h2 {
+    font-weight: 800;
+    font-size: 30px;
+    color: white;    
+}
+
+
+@media (max-width: 991px) {
+    body{ 
+    background-image: url("img/man-1.jpg");
+    background-repeat: no-repeat;
+   }
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1170px){
+    body{ 
+    background-image: url("img/man-2.jpg");
+    background-repeat: no-repeat;
+   }
+}
+
+
+    
+@media (min-width: 1171px)  {
+    body {
+    background-image: url("img/man-1.jpg"); 
+    background-repeat: no-repeat;
+    }
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
