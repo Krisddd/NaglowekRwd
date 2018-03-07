@@ -8,34 +8,60 @@ body {
 
 #main-header .header-content h1{
     font-weight: 800;
-    font-size: 50px;
-    color: white;    
+    font-size: 30px;
+       
 }
 
 #main-header .header-content h2 {
     font-weight: 800;
-    font-size: 30px;
-    color: white;    
+    font-size: 19px;
+        
 }
 
 
 @media (max-width: 991px) {
-    body{ 
+    body { 
     background-image: url("img/man-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;  
    }
+    .righth1 {
+    position: absolute;
+    top: 350px;
+    right: 15px;
+    color: black;
+    }
+    
+    .righth2 {
+    position: absolute;
+    top: 320px;
+    right: 150px;
+    color: black;
+    }
 }
 
 
 
 
 @media (min-width: 992px) and (max-width: 1170px){
-    body{ 
+    body {     
     background-image: url("img/man-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
    }
+    .righth1 {
+    position: absolute;
+    top: 170px;
+    right: 15px;
+    color: white;
+    }
+    
+    .righth2 {
+    position: absolute;
+    top: 120px;
+    right: 260px; 
+    color: white;   
+    }
 }
 
 
@@ -45,6 +71,19 @@ body {
     background-image: url("img/man-1.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    .righth1 {
+    position: absolute;
+    top:390px;
+    left: 15px;
+    color: white;
+    }
+    
+    .righth2 {
+    position: absolute;
+    top: 350px;
+    left: 18px;
+    color: white;   
     }
 }
 
