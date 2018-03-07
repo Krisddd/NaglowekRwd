@@ -30,7 +30,7 @@ body {
 
 
 
-@media (max-width: 992px) and (max-width: 1170px){
+@media (min-width: 992px) and (max-width: 1170px){
     body{ 
     background-image: url("img/man-2.jpg");
     background-repeat: no-repeat;
