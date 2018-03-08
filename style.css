@@ -14,77 +14,82 @@ body {
 
 #main-header .header-content h2 {
     font-weight: 800;
-    font-size: 19px;
+    font-size: 21px;
         
 }
 
 
 @media (max-width: 991px) {
-    body { 
+    header { 
     background-image: url("img/man-1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;   
+    height: 50vh;
    }
-    .righth1 {
+    .front {
     position: absolute;
-    top: 350px;
-    right: 15px;
     color: black;
+    left: 90px;
+    right: 100px;
+    text-align: center;
+    margin-top: 540px;
     }
     
-    .righth2 {
+    .iam {
     position: absolute;
-    top: 320px;
-    right: 150px;
     color: black;
+    left: 35px;
+    right: 40px;
+    text-align: center;
+    margin-top: 500px;
     }
 }
-
-
 
 
 @media (min-width: 992px) and (max-width: 1170px){
-    body {     
+    header {     
     background-image: url("img/man-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 70vh;
    }
-    .righth1 {
+    .front {
     position: absolute;
-    top: 170px;
-    right: 15px;
+    right: 32px;
     color: white;
+    margin-top: 15%;
     }
     
-    .righth2 {
+    .iam {
     position: absolute;
-    top: 120px;
     right: 260px; 
-    color: white;   
+    color: white;
+    margin-top: 12%;
     }
 }
-
-
-    
+ 
 @media (min-width: 1171px)  {
-    body {
-    background-image: url("img/man-1.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    header {
+        background-image: url("img/man-1.jpg");      
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
     }
-    .righth1 {
-    position: absolute;
-    top:390px;
-    left: 15px;
-    color: white;
+    .front {
+
+        position: absolute;
+        left: 21px;
+        color: white;
+        margin-top: 30%;  
     }
     
-    .righth2 {
-    position: absolute;
-    top: 350px;
-    left: 18px;
-    color: white;   
-    }
+    .iam {
+
+        position: absolute;
+        left: 24px;
+        color: white;
+        margin-top: 29%;   
+    } 
 }
 
 
